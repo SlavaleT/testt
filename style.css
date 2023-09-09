@@ -1,11 +1,16 @@
-div {
-    background-color: gray;
-    height: 150px;
+@media (max-width: 481px) {
+    .c1 {
+        width: 320px;
+    }
 }
 
-
-@media (max-width: 1200px) {
-    div {
-        width: 100px;
+@media (min-width: 481px) {
+    .c1 {
+        width: 960px;
     }
+}
+
+.c1 {
+    height: 200px;
+    background-color: blue;
 }
